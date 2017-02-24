@@ -11,7 +11,7 @@ namespace EasyHorbath.View
     {
         public MainPage()
         {
-
+            //reemplazar la llave de google Maps
             InitializeComponent();
         }
 
