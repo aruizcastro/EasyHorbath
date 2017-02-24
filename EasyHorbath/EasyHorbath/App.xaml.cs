@@ -11,9 +11,9 @@ namespace EasyHorbath
     {
         public App()
         {
-            InitializeComponent();
+            //InitializeComponent();
 
-            MainPage = new EasyHorbath.MainPage();
+            MainPage = new EasyHorbath.View.MainPage();
         }
 
         protected override void OnStart()

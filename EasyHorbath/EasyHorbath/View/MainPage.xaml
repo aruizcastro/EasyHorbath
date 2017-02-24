@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EasyHorbath"
+             x:Class="EasyHorbath.View.MainPage">
+
+  <StackLayout Orientation="Vertical">
+    <Label x:Name="GreetingLabel" Text="Welcome to Xamarin Forms!"
+           VerticalOptions="Center"
+           HorizontalOptions="Center" />
+    <Entry x:Name="NameEntry" />
+
+
+    <Button x:Name="BotonError" Text="Error"/>
+    <Button x:Name="BotonEvento1" Text="Saludo" Clicked="SayHelloButton_OnClicked"/>
+    <Button x:Name="BotonEvento2" Text="Evento2"/>
+    
+  </StackLayout>
+
+</ContentPage>
